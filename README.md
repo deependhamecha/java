@@ -1,2 +1,2 @@
-# java
-Everything Java
+# Java
+Everything about Java
