@@ -42,3 +42,60 @@ management.endpoints.web.exposure.exclude=health,info
 ```
 
 9. To run Spring Boot manually, run `mvn package` in root directory of the project which will generate jar and then go to `target` folder and run: `java -jar project_name-0.0.1.jar`.
+
+10. Eclipse bug where it shows error icon: add this to **pom.xml**:
+```xml
+<properties>
+	...
+	<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
+</properties>
+```
+
+11. DAO Impl
+```java
+@Override
+@Transactional
+```
+
+12. Application Properties Show SQL
+```java
+spring.jpa.show-sql=true
+```
+
+13. Database Configuration in **application.properties**
+```java
+spring.datasource.url=jdbc:mysql://localhost:3306/e2eproject1db
+spring.datasource.username=root
+spring.datasource.password=abcd
+````
+
+14. Spring Data REST like Spring Data JPA exposes rest apis.
+Just add the maven dependency.
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-data-rest</artifactId>
+</dependency>
+```
+Thats it.
+
+If you want different route then use annotation on Repository class.
+```java
+@RepositoryRestResource(path="members")
+public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
+
+}
+```
+
+By Default, Spring Data REST will return the first 20 elements. Page size=20. /members?page=0. Its index based.
+There are couple of other properties as well to configure Spring Data REST.
+```
+spring.data.rest.base-path="/magic-api"
+spring.data.rest.default-page-size=50
+spring.data.rest.max-page-size
+```
+URL will be `/magic-api/members`
+
+It also gives you sorting(Default asc).
+1. /members?sort=lastName,desc
+2. /members?sort=lastName,asc,lastName,desc
