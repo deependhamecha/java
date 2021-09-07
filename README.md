@@ -1,5 +1,5 @@
 - Core
-  - [Source File Declaration Rules](#sourcefile)
+  - [Source File Declaration Rules](core/source-file-declaration.md)
   - Access Specifiers
   - Interface
   - [Abstract Classes](#abstractclasses)
