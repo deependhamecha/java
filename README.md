@@ -1,2 +1,56 @@
-# Java
-Everything about Java
+- Core
+  - [Source File Declaration Rules](#sourcefile)
+  - Access Specifiers
+  - Interface
+  - [Abstract Classes](#abstractclasses)
+  - Enum
+  - Encapsulation
+  - Inheritance
+  - Polymorphism
+  - Abstraction
+  - Static
+  - Final
+  - Data types
+  - Wrapper Classes
+  - Boxing
+  - Passing Variables into methods
+  - Array
+  - Exception handling
+  - Garbage Collection
+  - Cohesion and Coupling
+  - Reference Variable Casting
+  - Return Types
+  - Constructor and Instantiation
+  - Assignments
+  - Operators
+  - Flow Control
+  - Exceptions
+  - Assertions
+  - String
+  - File IO
+  - Formatting
+  - Parsing
+  - [File NIO](#nio2)
+  - [equals() and hashCode()](#equalshashcode)
+  - [Collections](#collections)
+  - [Functional Programming](#functionalprogrammingandlambda)
+  - [Generics](#generics)
+  - [Inner Classes](#innerclasses)
+  - [Default - Java 8]()
+  - [Annotations](#annotations)
+  - Deployment
+  - Classpath vs Modulepath
+  - [Threads](#threads)
+  - Modulepath
+- [Java Memory Management](#javamemorymanagement)
+- JDBC
+- [Stream](#stream)
+- [Java Persistence API(JPA)](#jpa)
+- Hibernate
+- JAX-RS
+- JAX-WS
+- [Spring Dependency Injection](#springdi)
+- [Maven](#maven)
+- [Spring Inversion of Control](#springioc)
+  - [ApplicationContext](#springapplicationcontext)
+  - [Bean LifeCycle Methods](#beanlifecyclemethods)
