@@ -13,7 +13,7 @@ Earlier versions of EJB, defined persistence layer combined with business logic 
 - JPA 2.1 was released with the specification of JAVA EE7 on April 22, 2013 using JSR 338.
 
 ### JPA Relationships
-![](/deependhamecha/java/raw/master/jpa/images/jpa_class_relationships.png)
+![](images/jpa_class_relationships.png)
 - The relationship between EntityManagerFactory and EntityManager is one-to-many. It is a factory class to EntityManager instances.
 
 - The relationship between EntityManager and EntityTransaction is one-to-one. For each EntityManager operation, there is an EntityTransaction instance.
