@@ -1,8 +1,11 @@
+# Java 
+Topics having links are covered and rest of them are being prepared.
+
 - Core
   - [Source File Declaration Rules](core/source-file-declaration.md)
   - Access Specifiers
   - Interface
-  - [Abstract Classes](#abstractclasses)
+  - Abstract Classes
   - Enum
   - Encapsulation
   - Inheritance
@@ -30,22 +33,22 @@
   - File IO
   - Formatting
   - Parsing
-  - [File NIO](#nio2)
-  - [equals() and hashCode()](#equalshashcode)
-  - [Collections](#collections)
+  - [File NIO](core/nio2.md)
+  - [Equals and HashCode](core/equals-and-hashcode.md)
+  - [Collections](core/collections.md)
   - [Functional Programming](#functionalprogrammingandlambda)
-  - [Generics](#generics)
-  - [Inner Classes](#innerclasses)
-  - [Default - Java 8]()
-  - [Annotations](#annotations)
+  - [Generics](core/generics.md)
+  - [Inner Classes](core/inner-classes.md)
+  - Default - Java 8
+  - [Annotations](core/annotations.md)
   - Deployment
   - Classpath vs Modulepath
-  - [Threads](#threads)
+  - [Threads](core/threads.md)
   - Modulepath
-- [Java Memory Management](#javamemorymanagement)
+- [Java Memory Management](core/java-memory-management.md)
 - JDBC
-- [Stream](#stream)
-- [Java Persistence API(JPA)](#jpa)
+- [Stream](core/streams)
+- [Java Persistence API(JPA)](core/jpa.md)
 - Hibernate
 - JAX-RS
 - JAX-WS

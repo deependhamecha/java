@@ -1,3 +1,5 @@
+# Equals() and HashCode()
+	
 ### Overriding equals()
 
 `==` operator evaluates to true only when both references refer to the same object. When you really need to know if two references are identical, use ==.
