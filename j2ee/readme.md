@@ -1,6 +1,6 @@
 # Java 2 Enterprise Edition
 
-- Why use Servlets & JSPs and Web app architecture
+- [Servlets & JSPs intro and Web app architecture](j2ee/1_servlets-jsp-web-app.md)
 - Servlet in detail
 - Conversational state
 - JSP in detail

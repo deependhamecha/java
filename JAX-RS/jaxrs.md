@@ -19,7 +19,7 @@ public String getParam(@HeaderParam("Location") String location) {}
 
 6. CookieParam
 ```java
-public String getParam(@QueryParam("name") String name) {}
+public String getParam(@CookieParam("name") String name) {}
 ```
 
 7. @Context
